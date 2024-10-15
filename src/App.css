@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.App:hover {
+  transform: scale(1.05);
+}
+
+.app-name {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.city-search {
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.city-search:focus {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.error-message {
+  color: #ff4f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-temp img {
+  width: 80px;
+}
+
+.icon-temp {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.des-wind {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.deg {
+  font-size: 1rem;
+  vertical-align: super;
+  color: #666;
+}
+
+.city-name h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.date {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #666;
+}
